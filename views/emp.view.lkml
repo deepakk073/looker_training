@@ -56,4 +56,9 @@ view: emp {
     type: count
     drill_fields: [ename]
   }
+
+measure: total_sal{
+  type: sum
+  sql: ${TABLE}.sal ;;
+}
 }

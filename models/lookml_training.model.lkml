@@ -12,6 +12,7 @@ explore: order_detail {}
 explore: salgrade {}
 
 explore: salgrade1 {}
+explore: department_wise_salary {}
 
 explore: transactions {
   join: transactions__orders {
